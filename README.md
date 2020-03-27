@@ -1,7 +1,5 @@
 
-
-
-### THE GAME
+# THE GAME
 
 MACGYVER is a game build with PYTHON.
 
@@ -17,34 +15,34 @@ Macgyver must collect all the objects from the labyrinth and take the guardian's
 If Macgyver don't collect all the objects before reaching the guardian's position, the user loses the game.
 
 
-### Installation
+# Installation
 
   ## Installation and execution in a virtual environment:
 
 As part of the game installation, we proceed to set up through the Terminal a virtual environment, Virtualenv:
-
+```
 pip install virtualenv
-
+```
 We create and activate virtualenv :
 
-  # Creation:
+  ### Creation:
 
  ```
  virtualenv -p python3 env
  ```
 
-  # Activation:
+  ### Activation:
 
  ```
  source env/bin/activate
  ```
-  # Finally we launch the game:
+  ### Finally we launch the game:
 
  ```
  python3 launch_game_macgyver.py
  ```
 
-   ## Installation and execution of packages
+   # Installation and execution of packages
 
 In order to make the file executable we install the cx_Freeze module:
 
@@ -61,10 +59,6 @@ Then we generate a folder name build to execute the game:
  ```
 
 In that folder we can find the the file (launchgame) we need to click on to actually launch the game.
-
-
-
-
 
 
 
