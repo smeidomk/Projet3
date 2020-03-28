@@ -36,7 +36,14 @@ We create and activate virtualenv :
  ```
  source env/bin/activate
  ```
-  ### Finally we launch the game:
+ 
+ ### Dependencies
+ 
+ ```
+ pip install -r requirements.txt
+ ```
+ 
+ ### Finally we launch the game:
 
  ```
  python3 launch_game_macgyver.py
