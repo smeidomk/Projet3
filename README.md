@@ -46,7 +46,7 @@ We create and activate virtualenv :
  ### Finally we launch the game:
 
  ```
- python3 launch_game_macgyver.py
+ python3 launchgame.py
  ```
 
    # Installation and execution of packages
@@ -66,7 +66,3 @@ Then we generate a folder name build to execute the game:
  ```
 
 In that folder we can find the the file (launchgame) we need to click on to actually launch the game.
-
-
-
-
